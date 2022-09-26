@@ -14,7 +14,7 @@ namespace HolaMundo
 
         private void saludarButton_Click(object sender, RoutedEventArgs e)
         {
-            holamundoTextBlock.Text = "Hola " + input1TextBox.Text ?? "Mundo!";
+            holamundoTextBlock.Text = "Hola " + input1TextBox.Text ?? "Mundo!!";
         }
     }
 }
